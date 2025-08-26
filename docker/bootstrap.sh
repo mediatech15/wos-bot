@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "[WSDB] For more information please see https://github.com/whiteout-project/bot"
+echo "[WSDB] For more information please see https://github.com/mediatech15/wos-bot"
 
 cd /app
 
@@ -13,4 +13,4 @@ if [ -n "${DISCORD_BOT_TOKEN}" ]; then
     echo "${DISCORD_BOT_TOKEN}" > bot_token.txt
 fi
 
-python main.py --autoupdate
+python main.py
